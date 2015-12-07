@@ -5,16 +5,26 @@ $mysqli = new mysqli($server, $user, $pass, $dbname, $port, 'MySQL');
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
+
 /* create a prepared statement */
 $sql = "SELECT s.description as 'Item Description', sum(i.total_price) as 'Revenues' FROM stock s JOIN manufact m using(manu_code) JOIN items i using(stock_num) WHERE m.manu_name = ? group by s.description";
+/* create a prepared statement */
+$sql = "INSERT INTO DJ (name, city, state, country, years_exp) VALUES (?, ?, ?, ?, ?, ?)";
+
+
 if (!($stmt = $mysqli->prepare($sql))) {
 	echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
 }
 
 /* Prepared statement, stage 2: bind and execute */
-$m = $_POST['state'];
+$n = $_POST['dj_name'];
+$u = $_POST['dj_url'];
+$city = $_POST['dj_city'];
+$s = $_POST['dj_state'];
+$country= $_POST['dj_country'];
+$y = $_POST['dj_years_exp'];
 //$m = 'Anza';
-if (!$stmt->bind_param("s", $m)) { // bind variables
+if (!$stmt->bind_param("ssssss", $n, $u, $city, $s, $country, $y)) { // bind variables
     echo "Binding parameters failed: (" . $stmt->errno . ") " . $stmt->error;
 }
  
@@ -41,7 +51,7 @@ if (!$stmt->execute()) {
 ?>
 
 <p>
-The query:
+DJ Registration:
 <p>
 <?php
 ?>
