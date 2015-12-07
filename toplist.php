@@ -9,7 +9,7 @@ if ($mysqli->connect_errno) {
 /* create a prepared statement */
 $sql = "SELECT s.description as 'Item Description', sum(i.total_price) as 'Revenues' FROM stock s JOIN manufact m using(manu_code) JOIN items i using(stock_num) WHERE m.manu_name = ? group by s.description";
 /* create a prepared statement */
-$sql = "INSERT INTO DJ (name, city, state, country, years_exp) VALUES (?, ?, ?, ?, ?, ?)";
+$sql = "INSERT INTO DJ (NULL, name, city, state, country, years_exp) VALUES (?, ?, ?, ?, ?, ?)";
 
 
 if (!($stmt = $mysqli->prepare($sql))) {
