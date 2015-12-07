@@ -46,44 +46,21 @@ if (!$stmt->execute()) {
   
   <hr>
   
-  
-<?php
-  
-
-?>
+$stmt->close();
+$mysqli->close();
 
 <p>
-DJ Registration:
+DJ Registration Complete. ( We will check you out soon! )
 <p>
-<?php
-?>
-
+echo "New records created successfully";
 <hr>
-<p>
-Result of query:
-<p>
 
-<?php
-$out_description    = NULL;
-$out_revenues = NULL;
-if (!$stmt->bind_result($out_description, $out_revenues)) {
-    echo "Binding output parameters failed: (" . $stmt->errno . ") " . $stmt->error;
-}
 
-while ($stmt->fetch()) {
-    printf("%20s %12s", $out_description, $out_revenues);
-    echo "\r\n"; // Newlines won't work! :(
-    //print PHP_EOL;
-}
-
-?>
-
-<p>
 <hr>
 
 <p>
 <a href="findCustState.txt" >Contents</a>
-of the PHP program that created this page. 	 
+of the PHP program that created this page. 
  
 </body>
 </html>
