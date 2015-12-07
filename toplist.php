@@ -34,11 +34,14 @@ if (!$stmt->execute()) {
 	echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
 }
 
+$stmt->close();
+$mysqli->close();
+
 ?>
 
 <html>
 <head>
-  <title>Another Simple PHP-MySQL Program</title>
+  <title>DJ Database Registration</title>
   </head>
   
   <body bgcolor="white">
@@ -46,21 +49,13 @@ if (!$stmt->execute()) {
   
   <hr>
   
-$stmt->close();
-$mysqli->close();
+
 
 <p>
 DJ Registration Complete. ( We will check you out soon! )
 <p>
-echo "New records created successfully";
 <hr>
 
 
-<hr>
-
-<p>
-<a href="findCustState.txt" >Contents</a>
-of the PHP program that created this page. 
- 
 </body>
 </html>
