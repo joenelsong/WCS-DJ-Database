@@ -1,10 +1,14 @@
-set up webpage @ http://ix.cs.uoregon.edu/~jnelson/wcs_dj_db/findCust.html
+set up webpage @http://ix.cs.uoregon.edu/~jnelson/wcs_dj_db/db.html
 
 created WCS.sql database on mysql server on jnelson@ix.uoregon.edu
+
+This could be an open source WCS DJ Tool, or a product, I'm not sure yet. -- any suggestions would be great :)
+
+The applications are nearly endless. There are so many different things a DJ might want to query or use this database for for purposes of setting up their own playlists in terms of Geners, Artists, Tempo, etc. They could choose their Favorite DJ's and weight queries differently from different sources to determine which Tracks they are most interested in.
 
 Cool stuff:
 
 - Automated Python Script to add grab Track information from online radio station and add to MYSQLDB. It adds to both Track and RadioStation_has_Tracks Tables.
-	- script runs indefinately, polling the RadioStation periodically and updating the database in realtime.
+	- script runs continuously and as you read this (it is hosted on my home server, because ix wouldn't let me install mysqldb for python) it is polling a WCS RadioStation periodically (~ every 10-20 minutes) and updating the database in realtime.
 	
 - DJ's can register with my system, so that we can try and code up an automated way of tracking their playlists
