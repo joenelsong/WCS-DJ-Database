@@ -42,9 +42,11 @@ if (!$stmt->bind_result($a, $b, $c)) {
 }
 
 while ($stmt->fetch()) {
-    printf("Minimum Beats Per Minute: %s", $a);
-    printf("Maximum Beats Per Minute: %s", $b);
-    printf("Average Beats Per Minute: %s", $c);
+    printf("Minimum Beats Per Minute: %s ", $a);
+    echo "\r\n"; // Newlines won't work! :(
+    printf("Maximum Beats Per Minute: %s ", $b);
+    echo "\r\n"; // Newlines won't work! :(
+    printf("Average Beats Per Minute: %s ", $c);
     echo "\r\n"; // Newlines won't work! :(
     //print PHP_EOL;
 }
