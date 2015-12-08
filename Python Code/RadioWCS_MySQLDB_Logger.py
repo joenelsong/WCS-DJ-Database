@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# Author: Joey Nelson
+# Coded in Python 2.7.11
+
 import MySQLdb
 import urllib, json
 import urllib2
