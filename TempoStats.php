@@ -6,12 +6,7 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 /* create a prepared statement */
-$sql = "SELECT MIN(t.bpm) as min, MAX(t.bpm) as max, AVG(t.bpm) as av
-FROM Track t
-WHERE t.bpm !=""
-;
-";
-
+$sql = "SELECT MIN(t.bpm) as min, MAX(t.bpm) as max, AVG(t.bpm) as av FROM Track t WHERE t.bpm !='' ;";
 
 if (!($stmt = $mysqli->prepare($sql))) {
 	echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
