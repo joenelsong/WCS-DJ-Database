@@ -6,4 +6,7 @@ $user = "jnelson";
 $pass = "eqq";
 $port="3306";
 
+$user2 = "guest";
+$pass2 = "guest";
+
 ?>

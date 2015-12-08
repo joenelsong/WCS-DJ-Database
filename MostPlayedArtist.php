@@ -5,11 +5,34 @@ $mysqli = new mysqli($server, $user, $pass, $dbname, $port, 'MySQL');
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
+/* create a prepared statement */
+$sql = "SELECT track_artist, cs as 'Count'
+FROM
+	(
+	SELECT track_artist, COUNT(*) as cs
+	FROM Toplist_has_Tracks
+    GROUP BY track_artist
 
-/* create a prepared statement */
-//$sql = "SELECT s.description as 'Item Description', sum(i.total_price) as 'Revenues' FROM stock s JOIN manufact m using(manu_code) JOIN items i using(stock_num) WHERE m.manu_name = ? group by s.description";
-/* create a prepared statement */
-$sql = "INSERT INTO DJ (dj_id, dj_name, dj_city, dj_state, dj_country, dj_experience, dj_url) VALUES (?, ?, ?, ?, ?, ?, ?)";
+	UNION ALL
+
+	SELECT track_artist, COUNT(*) as cs
+	FROM RadioStation_has_Tracks
+    GROUP BY track_artist
+    
+    UNION ALL
+
+	SELECT track_artist, COUNT(*) as cs
+	FROM RadioStation_has_Tracks
+    GROUP BY track_artist
+    
+    UNION ALL
+
+	SELECT track_artist, COUNT(*) as cs
+	FROM Playlist_has_Tracks
+    GROUP BY track_artist
+	) t1
+GROUP BY t1.track_artist
+ORDER BY t1.cs DESC";
 
 
 if (!($stmt = $mysqli->prepare($sql))) {
@@ -17,31 +40,16 @@ if (!($stmt = $mysqli->prepare($sql))) {
 }
 
 /* Prepared statement, stage 2: bind and execute */
-$ai = "";
-$n = $_POST['dj_name'];
-$city = $_POST['dj_city'];
-$s = $_POST['dj_state'];
-$country= $_POST['dj_country'];
-$y = $_POST['dj_years_exp'];
-$u = $_POST['dj_url'];
-
-//$m = 'Anza';
-if (!$stmt->bind_param("sssssss", $ai, $n, $city, $s, $country, $y, $u)) { // bind variables
-    echo "Binding parameters failed: (" . $stmt->errno . ") " . $stmt->error;
-}
  
 if (!$stmt->execute()) {
 	echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
 }
 
-$stmt->close();
-$mysqli->close();
-
 ?>
 
 <html>
 <head>
-  <title>DJ Database Registration</title>
+  <title>Another Simple PHP-MySQL Program</title>
   </head>
   
   <body bgcolor="white">
@@ -49,13 +57,44 @@ $mysqli->close();
   
   <hr>
   
+  
+<?php
+  
 
+?>
 
 <p>
-DJ Registration Complete. ( We will check you out soon! )
+The query:
+<p>
+<?php
+?>
+
+<hr>
+<p>
+Result of query:
+<p>
+
+<?php
+$out_description    = NULL;
+$out_revenues = NULL;
+if (!$stmt->bind_result($out_description, $out_revenues)) {
+    echo "Binding output parameters failed: (" . $stmt->errno . ") " . $stmt->error;
+}
+
+while ($stmt->fetch()) {
+    printf("%20s %12s", $out_description, $out_revenues);
+    echo "\r\n"; // Newlines won't work! :(
+    //print PHP_EOL;
+}
+
+?>
+
 <p>
 <hr>
 
-
+<p>
+<a href="findCustState.txt" >Contents</a>
+of the PHP program that created this page. 	 
+ 
 </body>
 </html>
