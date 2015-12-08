@@ -26,7 +26,7 @@ $y = $_POST['dj_years_exp'];
 $u = $_POST['dj_url'];
 
 //$m = 'Anza';
-if (!$stmt->bind_param("ssssssi", $ai, $n, $city, $s, $country, $y, $u)) { // bind variables
+if (!$stmt->bind_param("sssssss", $ai, $n, $city, $s, $country, $y, $u)) { // bind variables
     echo "Binding parameters failed: (" . $stmt->errno . ") " . $stmt->error;
 }
  
