@@ -1,4 +1,4 @@
-set up webpage @ http://ix.cs.uoregon.edu/~jnelson/wcs_dj_db/findCust.html
+set up webpage @http://ix.cs.uoregon.edu/~jnelson/wcs_dj_db/db.html
 
 created WCS.sql database on mysql server on jnelson@ix.uoregon.edu
 
