@@ -39,8 +39,6 @@ if (!($stmt = $mysqli->prepare($sql))) {
 	echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
 }
 
-/* Prepared statement, stage 2: bind and execute */
- 
 if (!$stmt->execute()) {
 	echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
 }
@@ -48,26 +46,15 @@ if (!$stmt->execute()) {
 ?>
 
 <html>
-<head>
-  <title>Another Simple PHP-MySQL Program</title>
-  </head>
+	<head>
+  		<title>Most Popular WCS Artists</title>
+	</head>
+  	<body bgcolor="white">
+    	<hr>
   
-  <body bgcolor="white">
-  
-  
-  <hr>
-  
-  
-<?php
-  
-
-?>
-
 <p>
-The query:
+The query: "Artist Name" Followed by "Number of times Played"
 <p>
-<?php
-?>
 
 <hr>
 <p>
@@ -91,10 +78,5 @@ while ($stmt->fetch()) {
 
 <p>
 <hr>
-
-<p>
-<a href="findCustState.txt" >Contents</a>
-of the PHP program that created this page. 	 
- 
 </body>
 </html>
