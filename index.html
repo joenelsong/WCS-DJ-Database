@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>WCS DJ</title>
+
+    <link rel="stylesheet" href="Private/Stylesheets/index.css">
+	</head>
+
+	<body bgcolor="white">
+
+		<h1>Connecting to a WCS Database for Deejays!</h1>
+
+
+
+		<hr>
+
+		<h2>DJ Registration:</h2>
+
+		<form action="DJRegistration.php" method="POST">
+
+			<label for="dj_name">Enter DJ Name</label>
+			<input type="text" name="dj_name">
+
+			<label for="dj_url">Enter the URL to your playlists</label>
+			<input type="text" name="dj_url">
+
+			<label for="dj_city">Enter your City of origin</label>
+			<input type="text" name="dj_city">
+
+			<label for="dj_state">Enter your Abbreviated State of origin</label>
+			<input type="text" name="dj_state"> 
+
+			<label for="dj_country">Enter your Abbreviated Country of origin</label>
+			<input type="text" name="dj_country">
+
+			<label for="dj_years_exp">Enter your experience as a DJ in years</label>
+			<input type="text" name="dj_years_exp">
+
+			<input type="submit" value="submit">
+			<input type="reset" value="erase">
+
+		</form>
+		<hr>
+
+		<p>Most Popular WCS Artists:</p>
+
+		<form action="MostPlayedArtist.php" method="POST">
+			<input type="submit" value="View Now">
+		</form>
+
+		<p>
+		Tempo Statistics:
+	</p>
+
+		<form action="TempoStats.php" method="POST">
+		<input type="submit" value="View Now">
+		</form>
+		<br>
+		<hr>
+
+
+		<p>
+		<a href="https://bitbucket.org/joenelsong/wcs_dj_db/overview" >Link to this Project's Repository</a> <br>
+		- Let me know what querries you'd like to see, what sources are available that I'm not using, and what other meta data you might want to see 
+		- For the truely inspired contact me so we can get you writing some automated scripts for maintain and analyze the database
+		</p>
+		<p>
+		Database connection info, <a href="connectionData.txt" >connection data</a>,
+		kept separately for security reasons
+		</p>
+		<p>
+		If you don't know what WCS is, <a href="https://www.youtube.com/watch?v=woRcZWk0hYc&feature=youtu.be&t=31"> Watch This Performance </a>
+		</p>
+
+	</body>
+	</html>

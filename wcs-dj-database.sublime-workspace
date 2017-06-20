@@ -166,6 +166,53 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n    <title>WCS DJ</title>\n\n    <link rel=\"stylesheet\" href=\"Assets/Stylesheets/index.css\">\n\t</head>\n\n\t<body bgcolor=\"white\">\n\n\t\t<h1>Connecting to a WCS Database for Deejays!</h1>\n\n\n\n\t\t<hr>\n\n\t\t<h2>DJ Registration:</h2>\n\n\t\t<form action=\"DJRegistration.php\" method=\"POST\">\n\n\t\t\t<label for=\"dj_name\">Enter DJ Name</label>\n\t\t\t<input type=\"text\" name=\"dj_name\">\n\n\t\t\t<label for=\"dj_url\">Enter the URL to your playlists</label>\n\t\t\t<input type=\"text\" name=\"dj_url\">\n\n\t\t\t<label for=\"dj_city\">Enter your City of origin</label>\n\t\t\t<input type=\"text\" name=\"dj_city\">\n\n\t\t\t<label for=\"dj_state\">Enter your Abbreviated State of origin</label>\n\t\t\t<input type=\"text\" name=\"dj_state\"> \n\n\t\t\t<label for=\"dj_country\">Enter your Abbreviated Country of origin</label>\n\t\t\t<input type=\"text\" name=\"dj_country\">\n\n\t\t\t<label for=\"dj_years_exp\">Enter your experience as a DJ in years</label>\n\t\t\t<input type=\"text\" name=\"dj_years_exp\">\n\n\t\t\t<input type=\"submit\" value=\"submit\">\n\t\t\t<input type=\"reset\" value=\"erase\">\n\n\t\t</form>\n\t\t<hr>\n\n\t\t<p>Most Popular WCS Artists:</p>\n\n\t\t<form action=\"MostPlayedArtist.php\" method=\"POST\">\n\t\t\t<input type=\"submit\" value=\"View Now\">\n\t\t</form>\n\n\t\t<p>\n\t\tTempo Statistics:\n\t</p>\n\n\t\t<form action=\"TempoStats.php\" method=\"POST\">\n\t\t<input type=\"submit\" value=\"View Now\">\n\t\t</form>\n\t\t<br>\n\t\t<hr>\n\n\n\t\t<p>\n\t\t<a href=\"https://bitbucket.org/joenelsong/wcs_dj_db/overview\" >Link to this Project's Repository</a> <br>\n\t\t- Let me know what querries you'd like to see, what sources are available that I'm not using, and what other meta data you might want to see \n\t\t- For the truely inspired contact me so we can get you writing some automated scripts for maintain and analyze the database\n\t\t</p>\n\t\t<p>\n\t\tDatabase connection info, <a href=\"connectionData.txt\" >connection data</a>,\n\t\tkept separately for security reasons\n\t\t</p>\n\t\t<p>\n\t\tIf you don't know what WCS is, <a href=\"https://www.youtube.com/watch?v=woRcZWk0hYc&feature=youtu.be&t=31\"> Watch This Performance </a>\n\t\t</p>\n\n\t</body>\n\t</html>\n",
+			"file": "db.html",
+			"file_size": 2014,
+			"file_write_time": 131424659786394897,
+			"settings":
+			{
+				"buffer_size": 2014,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.css",
+			"settings":
+			{
+				"buffer_size": 26,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2015,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.504/Server.txt",
+			"settings":
+			{
+				"buffer_size": 2349,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "connectionData.txt",
+			"settings":
+			{
+				"buffer_size": 198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "TempoStats.php",
 			"settings":
 			{
@@ -545,7 +592,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -573,7 +620,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -601,7 +648,7 @@
 						"translation.y": 1188.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -629,11 +676,153 @@
 						"translation.y": 1386.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "db.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.504/Server.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2310,
+								2289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "connectionData.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "TempoStats.php",
 					"semi_transient": false,
 					"settings":
@@ -659,11 +848,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 9,
 					"file": "MostPlayedArtist.php",
 					"semi_transient": false,
 					"settings":
@@ -687,7 +876,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
