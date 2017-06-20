@@ -1,0 +1,778 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"align-",
+				"align-content"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"c",
+				"goalColor"
+			],
+			[
+				"tree",
+				"tree_model_labels"
+			],
+			[
+				"new",
+				"new_min"
+			],
+			[
+				"return",
+				"returnValue"
+			],
+			[
+				"new_",
+				"new_split_0_set"
+			],
+			[
+				"NUM",
+				"NUM_ATTRIBUTES-1"
+			],
+			[
+				"parent",
+				"parent_position"
+			],
+			[
+				"valid_",
+				"valid_attributes"
+			],
+			[
+				"Read",
+				"ReadDataFile"
+			],
+			[
+				"max_info",
+				"max_info_gain_idx"
+			],
+			[
+				"part",
+				"first_part"
+			],
+			[
+				"na",
+				"attribute_names"
+			],
+			[
+				"num",
+				"NUM_ATTRIBUTES"
+			],
+			[
+				"attri",
+				"attribute_names"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"H",
+				"H"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"conf_",
+				"conf_numsubEntries"
+			],
+			[
+				"EXIT_",
+				"EXIT_SUCCESS"
+			],
+			[
+				"Tw",
+				"TWEETS_PER_TOPIC"
+			],
+			[
+				"top",
+				"topsQueue"
+			],
+			[
+				"red",
+				"readCount"
+			],
+			[
+				"MAX",
+				"MAX_TWEET_CHARS"
+			],
+			[
+				"client",
+				"client_to_atp"
+			],
+			[
+				"atp_",
+				"atp_process_publisher"
+			],
+			[
+				"iS",
+				"iS"
+			],
+			[
+				"vtkPolyData",
+				"vtkPolyDataMapper"
+			],
+			[
+				"Get",
+				"GetOutputPort"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "DJRegistration.php",
+			"settings":
+			{
+				"buffer_size": 1501,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.015/Passwords.txt",
+			"settings":
+			{
+				"buffer_size": 951,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.041/Server.txt",
+			"settings":
+			{
+				"buffer_size": 2349,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TempoStats.php",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MostPlayedArtist.php",
+			"settings":
+			{
+				"buffer_size": 1595,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Snippet: html"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/joey/Documents/GitHub Projects/WCS-DJ-Database"
+	],
+	"file_history":
+	[
+		"//ka/FILES/Education/CIS451DatabaseProcessing/Final Project/FinalProject_Proposal.txt",
+		"/C/Users/joey/Documents/GitHub Projects/WCS-DJ-Database/db.html",
+		"/C/Users/joey/Downloads/ring.java",
+		"/C/Users/joey/Documents/GitHub Projects/WebDev--OregonInTents/readme.md",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.975/Server.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.031/Passwords.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.702/Server.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.648/Passwords.txt",
+		"/C/Users/joey/GitHubWebPage/portfolio.html",
+		"/C/Users/joey/GitHubWebPage/index.html",
+		"/C/Users/joey/Playlist HTML Audioplayer/audioplayer.js",
+		"/C/Users/joey/Playlist HTML Audioplayer/styles.css",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/filter.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/filter.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/PNMwriter.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/PNMwriter.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/sink.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/sink.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/filters.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/filters.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/source.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/source.C",
+		"//ka/FILES/Education/CIS415OperatingSystems/new/jnelsong-cis415/P1/sleeper.c",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/PNMreader.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/PNMreader.h",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/image.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/image.h",
+		"/C/Users/joey/GitHubWebPage/hobbies.html",
+		"/C/Users/joey/GitHubWebPage/stylesheets/homepage.css",
+		"/C/Users/joey/Downloads/intro-joey-nelson",
+		"/C/Users/joey/GitHubWebPage/stylesheets/github-dark.css",
+		"/C/Users/joey/GitHubWebPage/stylesheets/styles.css",
+		"/C/Users/joey/Webpage/stylesheets/styles.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 18 - jQuery - TodoListProject/assets/css/todos.css",
+		"//ka/FILES/Education/CIS 407 Careers and Internships (Spring 2015)/SQRTapproximation.C",
+		"//ka/FILES/Education/CIS 407 Careers and Internships (Spring 2015)/Retrospective.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.240/Server.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.993/Server.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.025/Server.txt",
+		"/C/Users/joey/GitHubWebPage/contact.html",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.538/session3.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.699/session2.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.320/session.php",
+		"/F/Numbers/ChatClient.java",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.518/Passwords.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.071/grades_update.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.706/insert.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.900/db_connect.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.127/grades_update.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.811/session3.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.686/session2.php",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.059/session.php",
+		"/F/Numbers/ChatServer.java",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.980/Server.txt",
+		"/C/AdwCleaner/AdwCleaner[C0].txt",
+		"/C/Users/joey/GitHubWebPage/homepage.html",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.422/Passwords.txt",
+		"/C/Users/joey/ssh-keys/How to.txt",
+		"/C/Users/joey/Playlist HTML Audioplayer/index.html",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.675/stress_test.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/main4C.C",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/README.md",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/RunLog.txt",
+		"/C/Users/joey/Downloads/Compressed/Image-Processing-Pipeline-master/src/Findings.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.376/Passwords.txt",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.266/New Text Document.txt",
+		"/C/Users/joey/Downloads/Compressed/apache-tomcat-6.0.53/RUNNING.txt",
+		"//ka/FILES/Education/Java Spring MVC Angular Html5 Udemy/Udemy - Java Spring Mvc Framework with Angularjs and Html5/02 Java Spring MVC Framework/DaaD.txt",
+		"/C/Users/joey/Downloads/Compressed/Java_nBackGame-master/src/nBackGame/StimulusComponent.java",
+		"/C/Users/joey/Downloads/Native Instruments Traktor PRO 2 v2.7.1 Incl. Patch-R2R [ATOM]/ATOM.Install.Notes.Readme.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/cookies.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/test/StyleSheets/rgbgame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/test/fountain.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/test/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/test/rgbgame.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/mobile.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/desktop.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/platform_check.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/rgbgame.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/index.html",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.342/New Text Document.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/mobile/StyleSheets/rgbgame2.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/desktop/StyleSheets/rgbgame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/mobile/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/desktop/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/mobile/rgbgame.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15 - Color game/RGB Guessing Game/desktop/rgbgame.js",
+		"/C/Users/joey/Documents/GitHub Projects/Image-Processing-Pipeline/Regression Tests/3H/chaz11/stress_test.C",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/rgbgame.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/StyleSheets/rgbgame2.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/rgbgame.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/test/fountain.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/test/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/StyleSheets/rgbgame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/index2.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/FountainAnimation.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/test/rgbgame.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/FountainAnimation.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/save_score_to_database.php",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/StyleSheets/highscores.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/highscores.php",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/connectionData.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/StyleSheets/highscores.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/highscores.php",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/rgbgame2.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/desktop/rgbgame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/mobile/connectionData.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/index.html",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/rgbgame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/connectionData.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/rgbgame.js",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIb0.963/New Text Document.txt",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Section 15/RGB Guessing Game/loading.html",
+		"/C/Users/joey/AppData/Local/Temp/Rar$DIa0.035/colorGame.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Setions 14 Javascript Web Apps/Score Keeper/scorekeeper.js",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Setions 14 Javascript Web Apps/Score Keeper/scorekeeper.css",
+		"/C/Users/joey/Dropbox/Udemy WebDev Bootcamp 2016/Setions 14 Javascript Web Apps/Score Keeper/scorekeeper.html",
+		"/C/Users/joey/Dropbox/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/joey/Dropbox/Job Applications/CBT_Nuggets/ProjectDue8_23/Part1/README.txt.txt",
+		"/C/Users/joey/Desktop/proj3/joeyproj3.cxx",
+		"/C/Users/joey/Desktop/proj3/proj3.cxx",
+		"/C/Users/joey/GitHubWebPage/joenelsong.github.io/stylesheets/styles.css",
+		"/C/Users/joey/Desktop/CIS410ScientificVisualization/proj3/proj3 (cis415's conflicted copy 2015-10-18).cxx",
+		"/C/Users/joey/Desktop/mc410/proj6B.vtk",
+		"/C/Users/joey/Desktop/CIS410ScientificVisualization/proj3/proj3.cxx",
+		"/C/Users/joey/Desktop/CIS410ScientificVisualization/proj3/joeyproj3.cxx"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"port",
+			"tim",
+			"radius",
+			"grey",
+			"gray",
+			"silver",
+			"grey",
+			"gray",
+			"decoration",
+			"color",
+			"337",
+			"ssh",
+			"div",
+			"wrapper",
+			"execute()",
+			"shrink",
+			"crop",
+			"measure",
+			"far",
+			"cel",
+			"degrees",
+			"font",
+			"cookie",
+			"promptPlayerName",
+			"playerName",
+			"myfunction",
+			"opacity",
+			"fountain",
+			"ajax",
+			"squareLis",
+			"height",
+			"fountain",
+			"roundNum",
+			";\n",
+			"3 in a row",
+			"newColors",
+			"winning",
+			"newGame",
+			"strikes",
+			"points = 0",
+			"roundOver",
+			"gameOver",
+			"round",
+			"gameOver",
+			"continue",
+			"winningColors",
+			"stroke",
+			"fountain",
+			"canvas",
+			"playAnimation",
+			"stopAnimation",
+			"stopanimation",
+			"animate",
+			"colorFountain",
+			"winningColors",
+			"color",
+			"topAnimation",
+			"bounce",
+			"stopAnimation",
+			"canvas",
+			"colorFountain",
+			"fountain",
+			"color",
+			"square",
+			"canvas",
+			"feedback",
+			"background",
+			"height",
+			"display",
+			"viewport",
+			"drops",
+			"integrate",
+			"integrate()",
+			"drops.integrate",
+			"color",
+			"strikeCount",
+			"button",
+			"table",
+			"font-size",
+			"playerName",
+			"player",
+			"input",
+			"high",
+			".high",
+			"prompt",
+			"alert",
+			"dialog",
+			"playerName",
+			"padding-bottom",
+			"vh",
+			"vw",
+			"correct",
+			"h1",
+			"media",
+			"right",
+			"col",
+			"\">",
+			"4",
+			"col-lg-4",
+			"adobe",
+			"indesign",
+			"response",
+			"pred",
+			"succ",
+			"something new",
+			"= 0",
+			"XD",
+			"attribute",
+			"to left branch",
+			"tree",
+			"entropy",
+			"{\n",
+			"float",
+			"total",
+			"parent_attribute",
+			"num_no",
+			"data",
+			"total",
+			"tree",
+			"parent_position",
+			"tree",
+			"valid_data",
+			"tree",
+			"valid_data",
+			"line",
+			"debug",
+			"data",
+			"insert("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"vw",
+			"strtok_r",
+			"conf_pub_topics",
+			"numPubEntries",
+			"topic 19",
+			"85",
+			"NUM_TOPICS",
+			"CR_MAXTOPICS",
+			"sub_ConnRec[isub].atp_to_client",
+			"sub_ConnRec[isub].client_to_atp",
+			"connRecPtr->",
+			"connRecPtr->atp_to_client",
+			"connRecPtr->client_to_atp",
+			"pub_ConnRec",
+			"pubConnRec[ipub].atp_to_client",
+			"pubConnRec[ipub].client_to_atp",
+			"connRecPtr->",
+			"connRecPtr->atp_to_client",
+			"connRecPtr->client_to_atp",
+			"pub_connRec[in].client_to_atp",
+			"sub",
+			"topicCountS",
+			"sub_to_atp",
+			"atp_to_sub",
+			"tmpConnRecS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "DJRegistration.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								955,
+								955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.015/Passwords.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/joey/AppData/Local/Temp/Rar$DIb0.041/Server.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2330,
+								2330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "TempoStats.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "MostPlayedArtist.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wcs-dj-database.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
