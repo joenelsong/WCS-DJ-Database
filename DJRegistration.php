@@ -1,20 +1,20 @@
 <?php
-include('connectionData.txt');
+include('./Private/connectionData.txt');
 
-$mysqli = new mysqli($server, $user, $pass, $dbname, $port, 'MySQL');
-if ($mysqli->connect_errno) {
-    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+try {
+$pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+ echo "Connected to $dbname at $host successfully.";
+} catch (PDOException $pe) {
+    die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
 
 /* create a prepared statement */
-//$sql = "SELECT s.description as 'Item Description', sum(i.total_price) as 'Revenues' FROM stock s JOIN manufact m using(manu_code) JOIN items i using(stock_num) WHERE m.manu_name = ? group by s.description";
-/* create a prepared statement */
-$sql = "INSERT INTO DJ (dj_id, dj_name, dj_city, dj_state, dj_country, dj_experience, dj_url) VALUES (?, ?, ?, ?, ?, ?, ?)";
+//$sql = "INSERT INTO DJ (dj_id, dj_name, dj_city, dj_state, dj_country, dj_experience, dj_url) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
 
-if (!($stmt = $mysqli->prepare($sql))) {
-	echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
-}
+// if (!($stmt = $mysqli->prepare($sql))) {
+// 	echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
+// }
 
 /* Prepared statement, stage 2: bind and execute */
 $ai = "";
@@ -25,18 +25,41 @@ $country= $_POST['dj_country'];
 $y = $_POST['dj_years_exp'];
 $u = $_POST['dj_url'];
 
-//$m = 'Anza';
-if (!$stmt->bind_param("sssssss", $ai, $n, $city, $s, $country, $y, $u)) { // bind variables
-    echo "Binding parameters failed: (" . $stmt->errno . ") " . $stmt->error;
-}
- 
-if (!$stmt->execute()) {
-	echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
-}
+// Bind Parameters
+$task = array(':dj_id' => $ai,
+							':dj_name' => $n,
+							':dj_city' => $city,
+							':dj_state' => $s,
+							':dj_country' => $country,
+							':dj_experience' => $y,
+							':dj_url' => $u);
 
-$stmt->close();
-$mysqli->close();
 
+$sql = 'INSERT INTO DJ (
+							dj_id,
+							dj_name,
+							dj_city,
+							dj_state,
+							dj_country,
+							dj_experience,
+							dj_url
+						)
+						VALUES (
+									:dj_id,
+									:dj_name,
+									:dj_city,
+									:dj_state,
+									:dj_country,
+									:dj_experience,
+									:dj_url
+						);';
+
+
+$q = $pdo->prepare($sql); // prepare statement
+
+$q->execute($task);
+
+$pdo=null; // Close PDO connection to database like using mysqli.close();
 ?>
 
 <html>
